@@ -10,8 +10,7 @@ feature_collection = {
 ARGV.each do |filename|
   json = File.read(filename)
   geometry = JSON.parse(json)
-  feature = { type: "feature", geometry: geometry }
-
+  feature = { type: "feature", geometry: geometry, id: filename[/(\w+)\.(\w+)\Z/, 1] }
   feature_collection[:features].push feature
 end
 

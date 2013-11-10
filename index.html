@@ -2,7 +2,16 @@
 <meta charset="utf-8">
 <style>
 
-/* CSS goes here. */
+.canton-366099 { fill: #ddc; }
+.canton-366100 { fill: #cdd; }
+.canton-366101 { fill: #cdc; }
+.canton-366102 { fill: #dcd; }
+.canton-366103 { fill: #ddc; }
+.canton-366104 { fill: #cdd; }
+.canton-366105 { fill: #cdc; }
+.canton-366106 { fill: #dcd; }
+.canton-366107 { fill: #cdc; }
+.canton-366108 { fill: #dcd; }
 
 </style>
 <body>
@@ -28,20 +37,16 @@ d3.json("geodata/cantons.json", function(error, fbih) {
       .center([18, 43])
       .scale(6000)
       .translate([width / 2, height / 2]);
-  // var projection = d3.geo.albers()
-  //     .center([18, 43])
-  //     // .rotate([4.4, 0])
-  //     .parallels([50, 60])
-  //     .scale(6000)
-  //     .translate([width / 2, height / 2]);
 
   // path definition
   var path = d3.geo.path()
       .projection(projection);
 
-  svg.append("path")
-    .datum(cantons)
-    .attr("d", path);
+  svg.selectAll(".canton")
+      .data(cantons.features)
+    .enter().append("path")
+      .attr("class", function(d) { console.log(d); return "canton-" + d.id; })
+      .attr("d", path);
 });
 
 </script>

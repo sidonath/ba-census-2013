@@ -1,0 +1,72 @@
+[
+  {
+    "id": "USK",
+    "name": "UNSKO‐SANSKI KANTON",
+    "persons": "299.343",
+    "households": "79.173",
+    "apartments": "107.049"
+  },
+  {
+    "id": "PK",
+    "name": "POSAVSKI KANTON",
+    "persons": "48.089",
+    "households": "13.563",
+    "apartments": "17.618"
+  },
+  {
+    "id": "TK",
+    "name": "TUZLANSKI KANTON",
+    "persons": "477.278",
+    "households": "151.843",
+    "apartments": "211.314"
+  },
+  {
+    "id": "ZDK",
+    "name": "ZENICKO‐DOBOJSKI KANTON",
+    "persons": "385.067",
+    "households": "122.305",
+    "apartments": "161.859"
+  },
+  {
+    "id": "BPK",
+    "name": "BOSANSKO‐PODRINJSKI KANTON",
+    "persons": "25.336",
+    "households": "8.595",
+    "apartments": "13.443"
+  },
+  {
+    "id": "SBK",
+    "name": "SREDNJOBOSANSKI KANTON",
+    "persons": "273.149",
+    "households": "78.938",
+    "apartments": "106.175"
+  },
+  {
+    "id": "HNK",
+    "name": "HERCEGOVACKO‐ NERETVANSKI KANTON",
+    "persons": "236.278",
+    "households": "68.368",
+    "apartments": "99.438"
+  },
+  {
+    "id": "ZHK",
+    "name": "ZAPADNOHERCEGOVACKI KANTON",
+    "persons": "97.893",
+    "households": "25.156",
+    "apartments": "31.634"
+  },
+  {
+    "id": "KS",
+    "name": "KANTON SARAJEVO",
+    "persons": "438.443",
+    "households": "149.123",
+    "apartments": "210.589"
+  },
+  {
+    "id": "K10",
+    "name": "KANTON 10",
+    "persons": "90.727",
+    "households": "24.135",
+    "apartments": "32.265"
+  }
+]
